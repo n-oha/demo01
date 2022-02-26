@@ -1,0 +1,18 @@
+.container {
+    text-align: center;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.container ul li {
+    padding-left: 10px;
+    text-decoration-line: none;
+}
+
+
+
