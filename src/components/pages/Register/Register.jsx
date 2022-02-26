@@ -8,7 +8,6 @@ const Register = () => {
 
     return(
         <div className={styles.container}>
-            <React.Fragment>
                 <h1>Sign up for your information!</h1>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <input {...register("name", {required: true})} placeholder="Enter your name" />
@@ -20,7 +19,6 @@ const Register = () => {
                     </select>
                     <input type="submit" value="Sign Up!" />
                 </form>
-            </React.Fragment>
         </div>
         
     )
